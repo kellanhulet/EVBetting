@@ -19,14 +19,14 @@ def get_bet_type(bet):
 def getGameData():
     # Open the best picks page on the Rithmm website for NCAAM basketball
     # Could move all URLs to constants.py or another file
-    url = "https://www.rithmm.com/best-bets/ai-college-basketball-picks-ncaab?13550908_page=2"
+    url = "https://www.rithmm.com/best-bets/ai-college-basketball-picks-ncaab"
     page = urlopen(url)
     html = page.read().decode("utf-8")
     soup = BeautifulSoup(html, "html.parser")
 
     # Get todays date. Script will only consider games from today
-    # currentDate = date.today()
-    currentDate = datetime.strptime('03-05-2024','%m-%d-%Y').date()
+    currentDate = date.today()
+    # currentDate = datetime.strptime('03-12-2024','%m-%d-%Y').date()
 
     betList = soup.find("div", class_="blogs-collection-list w-dyn-items")
 
@@ -43,7 +43,7 @@ def getGameData():
         date_obj = datetime.strptime(gsDate,'%A, %B %d, %Y').date()
         # Only consider today's games
         if currentDate == date_obj:
-            gsRow["date"] = gsDate
+            gsRow["date"] = date_obj.strftime("%m/%d/%Y")
 
             # Title for each section is the two teams playing
             # There doesn't seem to be a format of home team first or second. Also not alphabetical. Seems random but could be based off a hidden id or data piece not exposed.
@@ -78,8 +78,8 @@ def getGameData():
     # Most major sportsbook's lines match similarly to the odds displayed on Rithmm
     # Can take the bet without worrying about if the line has moved (most are around -110 for totals and +140 - +250 for ML)
 
-    # scoresUrl = "https://www.espn.com/mens-college-basketball/scoreboard/_/date/"+ currentDate.strftime("%Y%m%d") + "/seasontype/2/group/50"
-    scoresUrl = "https://www.espn.com/mens-college-basketball/scoreboard/_/date/20240305/seasontype/2/group/50"
+    scoresUrl = "https://www.espn.com/mens-college-basketball/scoreboard/_/seasontype/2/group/50"
+    # scoresUrl = "https://www.espn.com/mens-college-basketball/scoreboard/_/date/20240305/seasontype/2/group/50"
     pageESPN = urlopen(scoresUrl)
     htmlESPN = pageESPN.read().decode("utf-8")
     soupESPN = BeautifulSoup(htmlESPN, "html.parser")
