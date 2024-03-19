@@ -13,17 +13,19 @@ def addtospreadsheet():
     
     # Open Spreadsheet by key
     spreadsheet = Sheet_credential.open_by_key(SPREADSHEET_ID)
-    worksheet = spreadsheet.worksheet("PythonTest")
+    worksheet = spreadsheet.worksheet("NCAAM")
     max_length = len(worksheet.col_values(1)) + 1
     # print(getGameData())
     for index, row in enumerate(getGameData()):
         tempRow = [row['date'],row['teams'],row['bet'],row['odds'],row['dawg'],row['result'],row['WL']]
-        for idx, item in enumerate(tempRow, start=1):
-            worksheet.update_cell(max_length + index, idx, item)
+        # for idx, item in enumerate(tempRow, start=1):
+        #     worksheet.update_cell(max_length + index, idx, item)
         print(tempRow)
     
-schedule.every().day.at("22:05").do(addtospreadsheet)
+# schedule.every().day.at("23:30").do(addtospreadsheet)
 
-while True:
-        schedule.run_pending()
-        time.sleep(1)
+# while True:
+        # schedule.run_pending()
+        # time.sleep(1)
+
+addtospreadsheet()
