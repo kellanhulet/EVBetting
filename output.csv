@@ -1,0 +1,168 @@
+date,teams,dawg,bet,betType,odds,WL,result
+03/17/2024,Temple vs UAB,Yes,Temple,ML,245,L,UAB
+03/17/2024,Duquesne vs VCU,No,Over 127.5,Over,-110,L,108
+03/16/2024,UConn vs Marquette,No,Under 141.0,Under,-110,W,130
+03/16/2024,Iowa State vs Houston ,No,Over 121.0,Over,-110,L,110
+03/16/2024,Texas Southern vs Grambling State,No,Over 128.5,Over,-110,W,141
+03/16/2024,Oregon vs. Colorado,Yes,Oregon,ML,120,W,Oregon
+03/15/2024,Bethune-Cookman vs Grambling State,No,Over 127.0,Over,-110,L,118
+03/15/2024,San Diego State vs Utah State,No,Over 137.0,Over,-110,W,156
+03/15/2024,Providence vs Marquette,No,Over 137.5,Over,-110,W,147
+03/15/2024,UTEP vs Sam Houston State,Yes,UTEP,ML,180,W,UTEP
+03/12/2024,George Washington vs La Salle,No,Over 147.5,Over,-110,L,121
+03/12/2024,Denver vs South Dakota State,No,Under 163.0,Under,-110,W,144
+03/12/2024,Wagner vs Merrimack,No,Over 119.0,Over,-110,L,101
+03/12/2024,Idaho State vs Montana,Yes,Idaho State,ML,120,L,Montana
+03/11/2024,Stony Brook vs Hofstra,No,Over 140.5,Over,-110,L,122
+03/11/2024,Cleveland State vs Oakland,Yes,Cleveland State,ML,195,L,Oakland
+03/10/2024,Delaware vs Hofstra,No,Over 136.5,Over,-110,L,131
+03/10/2024,Illinois vs Iowa,No,Under 172.0,Under,-110,W,134
+03/10/2024,Omaha vs North Dakota,Yes,Omaha,ML,120,W,Omaha
+03/09/2024,Wagner vs Central Connecticut State,No,Over 125.5,Over,-110,L,122
+03/09/2024,Northern Iowa vs Indiana State,Yes,Northern Iowa,ML,275,L,Indiana State
+03/08/2024,William & Mary vs North Carolina A&T,No,Over 138.0,Over,-110,W,141
+03/08/2024,Pepperdine vs San Diego ,No,Under 155.5,Under,-110,W,109
+03/08/2024,Wichita State vs Tulane,Yes,Wichita State,ML,130,L,Tulane
+03/08/2024,William & Mary vs North Carolina A&T,No,Over 138.0,Over,-110,W,141
+03/07/2024,Pacific vs Pepperdine,No,Under 151.0,Under,-110,W,145
+03/07/2024,South Carolina State vs North Carolina Central,Yes,South Carolina State,ML,235,L,North Carolina Central
+03/06/2024,BYU vs Iowa State,Yes,BYU,ML,230,L,Iowa State
+03/05/2024,Northern Illinois (NIU) vs. Central Michigan (CMU),No,Over 137.0,Over,-110,L,132
+03/05/2024,Old Dominion (ODU) vs Texas State,No,Over 136.5,Over,-110,W,175
+03/05/2024,North Alabama vs Lipscomb,Yes,North Alabama,ML,240,W,North Alabama
+03/04/2024,Northern Colorado vs Northern Arizona,No,Under 155.0,Under,-110,L,156
+03/04/2024,Alcorn State vs Texas Southern,No,Over 139.0,Over,-110,W,161
+03/04/2024,Jacksonville vs Kennesaw State,Yes,Jacksonville,ML,142,W,Jacksonville
+03/03/2024,North Texas vs. East Carolina (ECU),No,Over 124.0,Over,-110,W,153
+03/03/2024,Memphis vs. UAB,Yes,UAB,ML,270,L,Memphis
+03/02/2024,New Hampshire vs. Binghamton,No,Over 146.0,Over,-110,W,161
+03/02/2024,Hampton vs William & Mary,No,Over 143.5,Over,-110,W,158
+03/02/2024,New Orleans vs Incarnate Word,Yes,New Orleans,ML,140,W,New Orleans
+03/01/2024,Kennesaw State vs. Queens,No,Under 170.5,Under,-110,L,173
+03/01/2024,Eastern Kentucky vs Lipscomb,Yes,Eastern Kentucky,ML,142,L,Lipscomb
+02/29/2024,Towson vs North Carolina A&T,No,Over 129.0,Over,-110,W,142
+02/29/2024,Gonzaga Vs San Francisco,No,Under 154.0,Under,-110,,
+02/29/2024,Abilene Christian vs Southern Utah,Yes,Abilene Christian,ML,140,W,Abilene Christian
+02/28/2024,Old Dominion vs Appalachian State,No,Over 143.5,Over,-110,W,153
+02/28/2024,East Tennessee State vs The Citadel,Yes,East Tennessee State,ML,105,W,East Tennessee State
+02/27/2024,Boise State vs. Air Force,Yes,Air Force +9.5 ,Spread,-110,L,-31
+02/27/2024,Nevada vs Colorado State,No,Over 138.5,Over,-110,W,151
+02/26/2024,Delaware State vs North Carolina Central,No,Over 138.0 ,Over,-110,W,174
+02/26/2024,Texas Southern vs Arkansas-Pine Bluff,No,Over 148.5,Over,-110,L,147
+02/26/2024,Drexel vs Delaware,Yes,Drexel,ML,114,W,Drexel
+02/25/2024,Purdue vs. Michigan,No,Michigan +13.5 ,Spread,-110,W,-8
+02/25/2024,IUPUI vs Northern Kentucky,No,Over 145.5,Over,-110,L,144
+02/25/2024,UAB vs. Tulane,Yes,UAB,ML,114,W,UAB
+02/24/2024,South Alabama vs. Arkansas State,No,Over 155.0,Over,-110,W,173
+02/24/2024,Alabama vs Kentucky,No,Under 175.5,Under,-110,L,212
+02/24/2024,California Baptist vs. Tarleton State,Yes,California Baptist,ML,200,L,Tarleton State
+02/23/2024,Youngstown State vs Milwaukee,No,Under 160.0,Under,-110,L,164
+02/23/2024,San Jose State vs. Nevada,No,Over 140.0,Over,-110,,
+02/23/2024,Fort Wayne vs. Wisconsin-Green Bay,Yes,Purdue Fort Wayne,ML,124,,
+02/22/2024,Central Connecticut State vs Wagner,No,Over 125.0,Over,-110,,
+02/22/2024,Denver vs South Dakota State,No,Under 160.0,Under,-110,L,167
+02/22/2024,UC San Diego vs. UC Riverside (UCR),Yes,UC Riverside,ML,136,L,UC San Diego
+02/21/2024,New Mexico vs. Colorado State,No,Under 155.5,Under,-110,W,134
+02/21/2024,East Tennessee State vs. VMI,No,Over 148.0,Over,-110,W,151
+02/21/2024,Dayton vs. George Mason,No,Over 134.0,Over,-110,W,138
+02/21/2024,Western Carolina vs UNC Greensboro,Yes,Western Carolina,ML,140,L,UNC Greensboro
+02/20/2024,Texas A&M vs. Arkansas,No,Over 145.0,Over,-110,W,149
+02/20/2024,San Jose State vs Boise State,No,Over 141.5,Over,-110,,
+02/20/2024,Butler vs Villanova,No,Over 141.5,Over,-110,L,134
+02/20/2024,Fordham vs Davidson,Yes,Fordham,ML,223,L,Davidson
+02/19/2024,Texas A&M-Commerce vs Incarnate Word,No,Over 141.5,Over,-110,W,148
+02/19/2024,South Carolina State vs Howard,No,Under 150.5,Under,-110,W,143
+02/19/2024,Grambling State vs Prairie View A&M,No,Over 138.0,Over,-110,,
+02/19/2024,Colgate vs Lafayette,Yes,Lafayette +7.5 ,Spread,-110,W,-5
+02/19/2024,Mississippi Valley State vs Alabama State,Yes,Mississippi Valley State,ML,900,L,Alabama State
+02/18/2024,UTSA vs Temple,No,Under 156.0,Under,-110,L,160
+02/18/2024,Wichita State vs Charlotte,No,Over 135.5,Over,-110,L,133
+02/18/2024,Memphis vs. SMU,No,Under 155.0,Under,-110,L,185
+02/18/2024,Evansville vs. Illinois State,Yes,Evansville,ML,164,L,Illinois State
+02/17/2024,Albany vs UMBC,No,Under 175.5,Under,-110,,
+02/17/2024,UT Arlington vs. UT Rio Grande Valley,No,Under 154.5,Under,-110,L,159
+02/17/2024,Texas Tech vs. Iowa State,No,Over 138.0 ,Over,-110,W,156
+02/17/2024,Arkansas-Pine Bluff vs Alabama State,Yes,Arkansas-Pine Bluff,ML,230,W,Arkansas-Pine Bluff
+02/16/2024,North Florida vs Kennesaw State,No,Under 164.0,Under,-110,W,163
+02/16/2024,Dartmouth vs Columbia,No,Over 135.5,Over,-110,W,136
+02/16/2024,Ohio vs Toledo,No,Under 160.0,Under,-110,L,168
+02/16/2024,Jacksonville vs Queens University (NC),Yes,Jacksonville,ML,105,L,Queens University
+02/15/2024,Wichita State vs. East Carolina (ECU),No,Over 138.5,Over,-110,L,123
+02/15/2024,Northern Arizona vs Sacramento State,No,Sacramento State -3.0 ,Spread,-110,L,-15
+02/15/2024,Southern Indiana vs. UT Martin,Yes,Southern Indiana,ML,295,L,UT Martin
+02/14/2024,Chattanooga vs East Tennessee State,Yes,East Tennessee State +270 (vs Chattanooga) ,ML,270,L,Chattanooga
+02/14/2024,North Florida vs Queens,No,Under 164.5,Under,-110,L,172
+02/14/2024,Furman vs VMI,No,Under 165.5,Under,-110,W,137
+02/13/2024,Ole Miss vs. Kentucky,No,Under 163.5,Under,-110,W,138
+02/13/2024,George Washington vs. George Mason,No,Over 144.5,Over,-110,W,157
+02/13/2024,Florida State vs. Virginia Tech,Yes,Florida State,ML,180,L,Virginia Tech
+02/12/2024,Jackson State vs Arkansas-Pine Bluff,No,Jackson State -122 ,Spread,-110,L,13
+02/12/2024,Southeastern Louisiana vs Texas A&M-Commerce,No,Over 131.0,Over,-110,,
+02/11/2024,SMU vs. North Texas,No,Over 127.0,Over,-110,W,139
+02/11/2024,Tulane vs Memphis,No,Under 166.5,Under,-110,L,168
+02/10/2024,Gonzaga vs Kentucky,No,Under 171.0,Under,-110,L,174
+02/10/2024,Kennesaw State vs Lipscomb,No,Under 170.5,Under,-110,L,196
+02/10/2024,Arizona State vs. Utah:,Yes,Arizona State,ML,550,W,Arizona State
+02/09/2024,Dayton vs. VCU,No,Over 135.5,Over,-110,L,96
+02/08/2024,Montana State vs Northern Colorado,No,Under 156.0,Under,-110,W,143
+02/08/2024,Idaho State vs. Sacramento State,No,Over 126.0,Over,-110,L,108
+02/08/2024,Montana vs. Northern Arizona,Yes,Northern Arizona,ML,215,L,Montana
+02/07/2024,Holy Cross vs Lafayette,No,Over 128.0,Over,-110,W,134
+02/07/2024,Notre Dame vs Duke,No,Over 134.0,Over,-110,L,124
+02/07/2024,Missouri vs. Texas A&M,Yes,Missouri +164 ,Spread,-110,W,-19
+02/06/2024,Texas Tech vs Baylor,No,Baylor -6.0 ,Spread,-110,L,6
+02/06/2024,San Diego State vs Air Force,No,Air Force +10.0 ,Spread,-110,L,-13
+02/06/2024,BYU vs. Oklahoma,Yes,BYU +110 (vs Oklahoma),ML,110,L,Oklahoma
+02/05/2024,Eastern Washington vs. Portland State,No,under 149.5,Under,-110,L,167
+02/05/2024,Coppin State vs South Carolina State,No,over 136.5,Over,-110,W,142
+02/05/2024,Grambling State vs Alcorn State,Yes,Grambling State,ML,136,,
+02/04/2024,South Dakota vs South Dakota State,No,over 156.5,Over,-110,L,137
+02/04/2024,Nebraska vs. Illinois,No,over 154.0,Over,-110,W,171
+02/04/2024,Canisius vs. Quinnipiac,Yes,Canisius +245 ,Spread,-110,W,-25
+02/03/2024,Binghamton vs. Vermont,No,Over 136.0,Over,-110,L,111
+02/03/2024,Bucknell vs American University,No,American -4.0 ,Spread,-110,,
+02/03/2024,Wagner vs Stonehill,Yes,Stonehill,ML,148,W,Stonehill
+02/01/2024,Sam Houston State vs. Western Kentucky,Yes,Sam Houston State +170 ,Spread,-110,,
+02/01/2024,Northern Colorado vs. Idaho State,No,Under 147.5,Under,-110,L,177
+02/01/2024,Wagner vs. Le Moyne,No,Over 131.0,Over,-110,W,137
+01/31/2024,Boise State vs New Mexico,No,Under 151.0,Under,-110,L,164
+01/31/2024,Arkansas vs. Missouri,No,Under 143.0,Under,-110,L,175
+01/31/2024,Florida vs. Kentucky,Yes,Florida,ML,210,W,Florida
+01/30/2024,Western Michigan (WMU) vs. Toledo,No,Under 156.0,Under,-110,W,151
+01/30/2024,George Washington vs Dayton,No,Over 146.0,Over,-110,L,144
+01/29/2024,Arkansas-Pine Bluff vs Grambling State,Yes,Arkansas-Pine Bluff,ML,230,W,Arkansas-Pine Bluff
+01/29/2024,Alcorn State vs Bethune-Cookman,No,Under 152.5,Under,-110,W,137
+01/29/2024,Mississippi Valley State vs Southern University,No,Over 133.0,Over,-110,L,132
+01/28/2024,Xavier vs UConn,No,Over 149.0,Over,-110,W,155
+01/27/2024,Boston College vs. Notre Dame,No,Over 133.5,Over,-110,L,119
+01/27/2024,Citadel vs. Chattanooga,No,Over 141.0,Over,-110,,
+01/27/2024,Towson vs. Delaware,Yes,Towson,ML,124,W,Towson
+01/26/2024,Iona vs. Siena College,No,Over 139.0,Over,-110,L,121
+01/26/2024,Arkansas State vs. Louisiana,No,Under 156.5,Under,-110,W,156
+01/25/2024,Eastern Illinois vs. Tennessee Tech,No,Over 133.0,Over,-110,L,127
+01/25/2024,Pacific vs. Saint Mary's,Yes,Pacific +27.0 ,Spread,-110,L,-48
+01/24/2024,Furman vs. Samford,No,Under 169.0,Under,-110,W,146
+01/24/2024,Tulane vs UTSA,No,Under 169.5,Under,-110,L,177
+01/23/2024,Dayton vs. La Salle,No,Over 140.5,Over,-110,L,120
+01/23/2024,Butler vs Georgetown,No,Over 149.5,Over,-110,W,156
+01/23/2024,Kentucky vs South Carolina,Yes,South Carolina +4.5 ,Spread,-110,W,17
+01/22/2024,Northwestern State vs SE Louisiana,No,South Carolina +4.5 ,Spread,-110,,
+01/22/2024,Wake Forest vs. North Carolina (UNC),No,Over 155.5,Over,-110,L,149
+01/22/2024,Prairie View A&M vs Alcorn State,Yes,Prairie View A&M +3.0 ,Spread,-110,L,-12
+01/21/2024,Fairfield vs Manhattan,No,Over 148.5,Over,-110,W,157
+01/21/2024,Oregon vs. Utah,Yes,Oregon,ML,205,L,Utah
+01/20/2024,Southern California (USC) vs. Arizona State,No,Over 146.5,Over,-110,,
+01/20/2024,Furman vs. Western Carolina,No,Over 152.5,Over,-110,L,127
+01/20/2024,Butler vs DePaul,Yes,Butler +16.0 ,Spread,-110,W,14
+01/19/2024,Saint Peters vs. Fairfield,Yes,Saint Peter's,ML,143,,
+01/19/2024,Wagner vs Merrimack,No,Over 124.5,Over,-110,W,136
+01/19/2024,Niagara vs. Rider,No,Under 144.5,Under,-110,L,152
+01/18/2024,Wichita State vs. Florida Atlantic (FAU),Yes,Wichita State +15.5 ,Spread,-110,W,-9
+01/18/2024,Oregon vs. Colorado,No,Oregon +6.5 ,Spread,-110,L,-16
+01/17/2024,Creighton vs. Connecticut (UCONN),No,Over 144.0,Over,-110,L,110
+01/17/2024,Southern California (USC) vs. Arizona,Yes,USC +19.5 ,Spread,-110,,
+01/16/2024,Georgia vs. South Carolina,No,Over 137.5,Over,-110,W,143
+01/16/2024,Utah State vs. New Mexico,Yes,Utah State +5.5 ,Spread,-110,L,-13
+01/15/2024,Villanova vs. Marquette,No,Over 143.0 ,Over,-110,W,161
+01/15/2024,Pennsylvania vs Cornell,Yes,Pennsylvania +8.5 ,Spread,-110,L,-17
+01/15/2024,La Salle vs Saint Joseph's,No,Over 149.0,Over,-110,L,144

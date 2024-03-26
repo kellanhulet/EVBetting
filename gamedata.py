@@ -49,7 +49,7 @@ def getGameData():
 
     # Get todays date. Script will only consider games from today
     # currentDate = date.today()
-    currentDate = datetime.strptime('01-25-2024','%m-%d-%Y').date()
+    currentDate = datetime.strptime('01-26-2024','%m-%d-%Y').date()
 
     betList = soup.find("div", class_="blogs-collection-list w-dyn-items")
 
@@ -116,7 +116,7 @@ def getGameData():
     # Can take the bet without worrying about if the line has moved (most are around -110 for totals and +140 - +250 for ML)
 
     # scoresUrl = "https://www.espn.com/mens-college-basketball/scoreboard/_/seasontype/2/group/50"
-    scoresUrl = "https://www.espn.com/mens-college-basketball/scoreboard/_/date/20240125/seasontype/2/group/50"
+    scoresUrl = "https://www.espn.com/mens-college-basketball/scoreboard/_/date/20240126/seasontype/2/group/50"
     pageESPN = urlopen(scoresUrl)
     htmlESPN = pageESPN.read().decode("utf-8")
     soupESPN = BeautifulSoup(htmlESPN, "html.parser")
@@ -127,11 +127,11 @@ def getGameData():
     for game in scoresESPNHTML.find_all("section", class_="Scoreboard bg-clr-white flex flex-auto justify-between"):
         # Gets the wrapper HTML for the two teams
         gameDetails = game.find("ul", class_="ScoreboardScoreCell__Competitors")
-        
+
         # Gets the HTML tags for the home and away teams for the given game
         homeTeamStats = gameDetails.find("li", class_="ScoreboardScoreCell__Item--home")
         awayTeamStats = gameDetails.find("li", class_="ScoreboardScoreCell__Item--away")
-        
+
         # Gets the name of the home team and away team. Naming convention seems to match well between Rithmm and ESPN (ie, UConn not University of Conneticut, Iowa State not Iowa St. or ISU)
         homeTeamName = homeTeamStats.find("div", class_="ScoreCell__TeamName").get_text()
         awayTeamName = awayTeamStats.find("div", class_="ScoreCell__TeamName").get_text()
@@ -211,9 +211,8 @@ def getRithmmHistory():
 
         betList = soup.find("div", class_="blogs-collection-list w-dyn-items")
 
-        gameKeys = []
-
         for row in betList.find_all("div", class_="w-dyn-item"):
+            gameKeys = []
             gsRow = {}
 
             # First p tag contains the date in the following format: WEEKDAY, MONTH DD, YYYY
@@ -271,10 +270,6 @@ def getRithmmHistory():
             scoresESPNHTML = soupESPN.find("section", class_="Card gameModules")
             # Gets HTML list of NCAAM basketball games for the day. Filtered for all Division 1 games
             for game in scoresESPNHTML.find_all("section", class_="Scoreboard bg-clr-white flex flex-auto justify-between"):
-                # If the game is not finished, skip
-                if not game.find("div", class_="ScoreCell__Time").get_text() == "FINAL":
-                    continue
-
                 # Gets the wrapper HTML for the two teams
                 gameDetails = game.find("ul", class_="ScoreboardScoreCell__Competitors")
 
@@ -337,18 +332,23 @@ def getRithmmHistory():
                                 gsRow["WL"] = "L"
                             gsRow["result"] = awayScore - homeScore
             gsRows.insert(len(gsRows), gsRow)
+            print(gsRow)
 
         i += 1
-        if i > 28:
+        if i > 5:
             break
     # Return the created JSON object
-    # print(gsRows)
-    # return gsRows
-    with open("output.csv","w",newline="") as f:  # python 2: open("output.csv","wb")
-        title = "date,teams,dwag,bet,betType,HUMIDITY".split(",") # quick hack
-        cw = csv.DictWriter(f,title,delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    print(gsRows)
+    return gsRows
+
+def createHistoryCSV():
+    with open("output.csv","w",newline="") as f:
+        json_list = getRithmmHistory()
+        headers = json_list[0].keys() 
+        # title = "date,teams,dawg,bet,betType,odds,WL,result".split(",")
+        cw = csv.DictWriter(f,fieldnames=headers)
         cw.writeheader()
-        cw.writerows(gsRows)   
+        cw.writerows(json_list) 
+    print("Done")
 
 getRithmmHistory()
-# getGameData()
